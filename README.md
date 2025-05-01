@@ -1,6 +1,6 @@
-A Simple NodeJS Akamai token generator library
+A ESM-only typed fork of the original abandoned [akamai-auth-token](https://github.com/anilGupta/akamai-token-generator) library by @anilGupta.
 
-## Installation 
+## Installation
 
 using **yarn**:
 
@@ -12,17 +12,17 @@ Or with **npm**:
 
 ## Uses
 
-```js
-var Akamai = require('akamai-auth-token');
-var config = {
+```ts
+import Akamai from 'akamai-auth-token';
+const config = {
          algorithm : 'SHA256',
          acl : '/*',
          window : 6000,
          key : "myPrivateKey",
          encoding: false
     };
- 
- 
- var akamai = new Akamai(config),
-     token = akamai.generateToken();
+
+
+const akamai = new Akamai(config);
+const token = akamai.generateToken();
 ```
