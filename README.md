@@ -1,3 +1,7 @@
+# Akamai Token Generator
+
+[![Publish](https://github.com/danitt/akamai-token-generator/actions/workflows/master.yml/badge.svg)](https://github.com/danitt/akamai-token-generator/actions/workflows/master.yml)
+
 A ESM-only typed fork of the original abandoned [akamai-auth-token](https://github.com/anilGupta/akamai-token-generator) library by @anilGupta.
 
 ## Installation
