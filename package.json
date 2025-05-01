@@ -1,6 +1,6 @@
 {
   "name": "@danitt/akamai-auth-token",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A sample library for generating akamai auth token",
   "author": "danitt <dan@staykind.io>",
   "license": "MIT",
