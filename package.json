@@ -1,6 +1,6 @@
 {
   "name": "@danitt/akamai-auth-token",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A sample library for generating akamai auth token",
   "author": "danitt <dan@staykind.io>",
   "license": "MIT",
@@ -33,20 +33,20 @@
     "test:watch": "vitest --watch"
   },
   "devDependencies": {
-    "@eslint/js": "9.25.1",
-    "@types/node": "^22.15.3",
-    "@vitest/coverage-v8": "^3.1.2",
-    "eslint": "9.25.1",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-import-resolver-typescript": "^4.3.4",
-    "eslint-plugin-import-x": "^4.11.0",
-    "eslint-plugin-prettier": "^5.2.6",
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^22.15.32",
+    "@vitest/coverage-v8": "^3.2.4",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-import-resolver-typescript": "^4.4.3",
+    "eslint-plugin-import-x": "^4.15.2",
+    "eslint-plugin-prettier": "^5.5.0",
     "eslint-plugin-unused-imports": "^4.1.4",
     "prettier": "^3.5.3",
-    "tsx": "^4.19.4",
+    "tsx": "^4.20.3",
     "typescript": "~5.3.3",
-    "typescript-eslint": "^8.31.1",
-    "vitest": "^3.1.2"
+    "typescript-eslint": "^8.34.1",
+    "vitest": "^3.2.4"
   },
   "keywords": [
     "akamai",
